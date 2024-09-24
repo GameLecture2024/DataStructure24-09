@@ -3,16 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\lecture6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|solutionrelative:lecture6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\DEQUE||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|solutionrelative:lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\MyStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|solutionrelative:MyStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\GameHistory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|solutionrelative:GameHistory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\GameRoom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -41,10 +52,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\RandomNumber.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|solutionrelative:RandomNumber.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|solutionrelative:lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A6AE3D5-F54A-43B7-876C-94053962985A}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -94,6 +101,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "deque",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\deque",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\deque",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\deque",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\deque",
+              "ViewState": "AQIAAA4EAAAAAAAAAAAUwCIEAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-24T08:36:18.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lecture6.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\lecture6.cpp",
+              "RelativeDocumentMoniker": "lecture6.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\lecture6.cpp",
+              "RelativeToolTip": "lecture6.cpp",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAUwKQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-24T07:02:03.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GameHistory.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\GameHistory.h",
               "RelativeDocumentMoniker": "GameHistory.h",
@@ -101,12 +134,11 @@
               "RelativeToolTip": "GameHistory.h",
               "ViewState": "AQIAADYAAAAAAAAAAAAAABgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-23T08:01:56.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T08:01:56.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MyStack.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\MyStack.h",
               "RelativeDocumentMoniker": "MyStack.h",
@@ -119,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "GameRoom.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\GameRoom.h",
               "RelativeDocumentMoniker": "GameRoom.h",
@@ -127,12 +159,11 @@
               "RelativeToolTip": "GameRoom.h",
               "ViewState": "AQIAAKAAAAAAAAAAAAAUwLMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-20T07:06:44.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T07:06:44.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "random",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\random",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\random",
@@ -144,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "RandomNumber.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\RandomNumber.h",
               "RelativeDocumentMoniker": "RandomNumber.h",
@@ -156,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "LinkedList.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\LinkedList.cpp",
               "RelativeDocumentMoniker": "LinkedList.cpp",
@@ -168,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "MyVector.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\MyVector.h",
               "RelativeDocumentMoniker": "MyVector.h",
@@ -176,12 +207,11 @@
               "RelativeToolTip": "MyVector.h",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-19T07:12:43.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T07:12:43.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "lecture5.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\lecture5.cpp",
               "RelativeDocumentMoniker": "lecture5.cpp",
@@ -193,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "lecture4.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\lecture4.cpp",
               "RelativeDocumentMoniker": "lecture4.cpp",
@@ -205,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "CircularLinkedList.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\CircularLinkedList.h",
               "RelativeDocumentMoniker": "CircularLinkedList.h",
@@ -217,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "lecture2.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\lecture2.cpp",
               "RelativeDocumentMoniker": "lecture2.cpp",
@@ -229,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "DoubliyLinkedList.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\DoubliyLinkedList.cpp",
               "RelativeDocumentMoniker": "DoubliyLinkedList.cpp",
@@ -237,12 +267,11 @@
               "RelativeToolTip": "DoubliyLinkedList.cpp",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAHkAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-12T07:16:17.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T07:16:17.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LinkedList.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\LinkedList.h",
               "RelativeDocumentMoniker": "LinkedList.h",
@@ -250,12 +279,11 @@
               "RelativeToolTip": "LinkedList.h",
               "ViewState": "AQIAAC0AAAAAAAAAAAAuwDkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T07:15:17.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T07:15:17.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "lecture3.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\lecture3.cpp",
               "RelativeDocumentMoniker": "lecture3.cpp",
@@ -267,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "DoubliyLinkedList.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\DoubliyLinkedList.h",
               "RelativeDocumentMoniker": "DoubliyLinkedList.h",
@@ -275,24 +303,24 @@
               "RelativeToolTip": "DoubliyLinkedList.h",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T07:04:07.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T07:04:07.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "lectures.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\lectures.h",
               "RelativeDocumentMoniker": "lectures.h",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\lectures.h",
               "RelativeToolTip": "lectures.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T07:03:17.914Z"
+              "WhenOpened": "2024-09-12T07:03:17.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Complexity.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\Complexity.cpp",
               "RelativeDocumentMoniker": "Complexity.cpp",
@@ -304,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Complexity.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\Complexity.h",
               "RelativeDocumentMoniker": "Complexity.h",
@@ -316,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "OT.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\OT.cpp",
               "RelativeDocumentMoniker": "OT.cpp",
@@ -334,7 +362,7 @@
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\DataStructure24-09\\DataStructure\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-10T07:06:37.463Z",
               "EditorCaption": ""
