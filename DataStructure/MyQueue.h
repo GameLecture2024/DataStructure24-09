@@ -254,22 +254,6 @@ void IQueueExample()
 /// 언제 사용하면 좋을까? 큐를 반복해서 사용해야 하는데, 그 갯수가 많지 않을 때 사용하면 좋다.
 /// </summary>
 
-class CircularQueue
-{
-private:
-	int iMaxCount;
-
-
-public:
-	 // 배열 기반 형태로 큐를 만들어 봅니다.
-
-	 // IsFull
-	 
-	 // pop
-
-	 // push
-};
-
 
 //  1. 선형 큐의 단점 :  Front, Rear가 계속 증가하고, 재활용이 힘들다. 
 //  이를 개선하기 위한 원형 큐를 만들어 볼 수 있다.
