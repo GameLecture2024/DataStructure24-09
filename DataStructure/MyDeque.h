@@ -19,6 +19,8 @@
 * - 중간에 원소를 삽입 삭제 O(n)                   - Node기반 구현하면 O(1)
 */
 
+// heap corruption..  index 찾을 수 없다. -> new T[];
+
 template <typename T>
 class MyDeque
 {
@@ -33,12 +35,12 @@ private:
 
 	void allocateBlock()   // 블록 생성 함수
 	{
-		blocks.push_back(new T(blockSize));  //   new T(blockSize) -> vector<T*>blocks에 push_back
+		blocks.push_back(new T[blockSize]);  //   new T(blockSize) -> vector<T*>blocks에 push_back
 	}
 
 	void addFrontBlock()   // 앞쪽 블록 추가
 	{
-		blocks.insert(blocks.begin(), new T(blockSize));
+		blocks.insert(blocks.begin(), new T[blockSize]);
 		frontIndex = blockSize - 1;
 	}
 
@@ -74,7 +76,7 @@ public:
 		{
 			throw std::out_of_range("덱이 비었음");
 		}
-		return blocks[0][frontIndex + 1];
+		return blocks[0][frontIndex];
 	}
 
 	T& getBack() const
@@ -83,28 +85,30 @@ public:
 		{
 			throw std::out_of_range("덱이 비었음");
 		}
-		return blocks.back()[backIndex - 1];
+		return blocks.back()[backIndex];
 	}
 
     // Main Method
 
 	void pushFront(const T& data) //      int, float, std::string
 	{
+		frontIndex--;
 		if (frontIndex < 0)
 		{
 			addFrontBlock();
 		}
-		blocks[0][frontIndex--] = data;
+		blocks[0][frontIndex] = data;
 		++iCount;
 	}
 
 	void pushBack(const T& data)
 	{
+		backIndex++;
 		if (backIndex == blockSize)
 		{
 			addBackBlock();
 		}
-		blocks.back()[backIndex++] = data;
+		blocks.back()[backIndex] = data;
 		++iCount;
 	}
 

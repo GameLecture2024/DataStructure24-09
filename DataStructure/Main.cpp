@@ -24,8 +24,8 @@ int main()
 	//StackExample();
 	//iGameHistoryExample();
 	//lecture6();
-	//IQueueExample();
+	IQueueExample();
 	//CommandSystemExample();
 	//IDequeExample();
-	IteratorExample();
+	//IteratorExample();
 }

@@ -17,6 +17,8 @@
 // 입력 및 삭제 : push, pop 
 // 필드 값 표현 : empty(), size(), front(), back() 
 
+
+
 template <typename T>
 class ArrayBasedQueue
 {
@@ -25,6 +27,60 @@ private:
 	int front;	   // 출력 위치를 가리키는 인덱스
 	int rear;	   // 데이터 입력 위치를 가리키는 인덱스
 	int iCount;	   // 현재 자료구조의 원소의 갯수
+
+	class Iterator
+	{
+	private:
+		T* ptr;
+	public:
+		// 생성자
+		Iterator() : ptr(nullptr) {}
+		Iterator(T* ptr) : ptr(ptr) {}
+
+		T& operator*()
+		{
+			return *ptr;
+		}
+
+		// 전위 연산자 ++it
+		Iterator& operator++()
+		{
+			ptr++;
+			return *this;
+		}
+
+		// 후위 연산자 it++
+		Iterator& operator++(int)
+		{
+			Iterator temp = *this;
+			ptr++;
+			return temp;
+		}
+
+		bool operator==(const Iterator& other)
+		{
+			return ptr == other.ptr;
+		}
+
+		bool operator!=(const Iterator& other)
+		{
+			return ptr != other.ptr;
+		}
+
+		Iterator operator+(const int count)
+		{
+			Iterator temp = *this;
+			temp.ptr += count;
+			return temp;
+		}
+	};
+
+public:
+	using iterator = Iterator;
+	iterator begin() { return iterator(queue); }
+	iterator end() { return begin() + iCount; }
+
+
 public:
 	// 생성자 & 소멸자
 	ArrayBasedQueue(int size = 10)
@@ -197,6 +253,8 @@ void IQueueExample()
 	std::cout << m_q.front() << std::endl;
 	m_q.pop();
 
+
+
 	// 배열 기반 큐 선언
 	ArrayBasedQueue<int> myQueue;
 	myQueue.Push(1);
@@ -204,6 +262,18 @@ void IQueueExample()
 	myQueue.Push(3);
 	myQueue.Push(4);
 	myQueue.Push(5);
+
+	// iterator로 반복문 출력하기
+
+	std::cout << "iterator 반복문 예제" << std::endl;
+
+	auto queueIt = myQueue.begin();
+
+	for (queueIt; queueIt != myQueue.end(); queueIt++)
+	{
+		std::cout << *queueIt << std::endl;
+	}
+
 
 	std::cout << myQueue.Front() << std::endl;
 	myQueue.Pop();
