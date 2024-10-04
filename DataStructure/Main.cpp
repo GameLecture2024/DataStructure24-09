@@ -11,6 +11,7 @@
 #include "iterator.h"
 #include "heap.h"
 #include "tree.h"
+#include "set.h"
 
 int main()
 {
@@ -32,5 +33,6 @@ int main()
 	//IteratorExample();
 	//PriorityQueueExample();
 	//lecture7();
-	TreeExample();
+	//TreeExample();
+	SetExample();
 }

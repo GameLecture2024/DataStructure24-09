@@ -37,6 +37,15 @@
 // InOrder 중위 순회
 // PostOrder 후위 순회
 
+// 균형 잡힌 이진 검색 트리 
+// Red - Black Tree,  AVL Tree
+
+// 1. 모든 노드는 빨간색 혹은 검은색이다.
+// 2. 루트 노드는 검은색이다.
+// 3. NIL(Null leaf) 리프 노드들은 검은색이다. Null Left : 자료를 갖지 않고 트리의 끝을 나타내는 노드
+// 4. 빨간색 노드의 자식은 검은색이다. (NO DOUBLE RED) // 검은색의 자식이 검은색이어도 된다.
+// 5. 모든 리프 노드에서 Blcak Depth는 같다.  // 모든 리프 노드에서 특정 노드로 가는 검은색 노드의 갯수가 같아야 한다.
+
 #include <iostream>
 
 class Tree
@@ -153,6 +162,64 @@ private:
 		
 	}
 
+	// 노드의 삭제
+
+	// 1. 리프 노드	또는 자식이 1개만 있을 경우 : 노드를 삭제하고 자식 노드를 부모 노드와 연결 시켜 준다.
+
+	// 2. 자식이 2개가 있을 경우 : case1, case2 그림 설명 (선택)
+
+	Node* removeNode(Node* root, int target)
+	{
+		if (root == nullptr) return root;
+
+		 // 1. 삭제할 노드를 찾는다.
+		if (target < root->data)
+		{
+			root->left = removeNode(root->left, target);
+		}
+		else if (target > root->data)
+		{
+			root->right = removeNode(root->right, target);
+		}
+		else  // 2. 노드를 찾았다면
+		{
+			// 그 노드의 자식이 1개만 존재하거나, 리프 노드일 경우
+			
+			if (root->left == nullptr)
+			{
+				Node* temp = root->right;
+				delete root;
+				return temp;
+			}
+			else if (root->right == nullptr)
+			{
+				Node* temp = root->left;
+				delete root;
+				return temp;
+			}
+
+			// 자식이 2개가 있을 경우
+			// 왼쪽 노드를 부모로 올릴지, 오른쪽 노드를 부모로 올릴지 선택
+			// 오른쪽을 선택한다고 가정, 오른쪽 노드 중에서 가장 왼쪽 아래에 있는 노드를 부모로 변경해준다.
+
+			Node* temp = minValueNode(root->right);
+			root->data = temp->data;
+			root->right = removeNode(root->right, temp->data);
+		}	 
+
+		return root;
+	}
+
+	Node* minValueNode(Node* node)
+	{
+		Node* current = node;
+		while (current && current->left != nullptr)
+		{
+			current = current->left;
+		}
+		return current;
+	}
+
 	void inOrder(Node* root)
 	{
 		 // LNR
@@ -181,6 +248,43 @@ public:
 		inOrder(root); // root를 인자로 갖는 inOrder 함수를 구현해보세요.
 		std::cout << std::endl;
 	}
+
+	void remove(int target)
+	{
+		removeNode(root, target);
+	}
+
+	void leftRotate(Node* oldTop)
+	{
+		bool isRoot = false;
+
+		if (oldTop->data == root->data)
+			isRoot = true;
+
+		Node* newTop = oldTop->right;
+		oldTop->right = newTop->left;
+		newTop->left = oldTop;
+
+		if (isRoot)
+			root = newTop;
+	}
+
+	void rightRotate(Node* oldTop)
+	{
+		bool isRoot = false;
+
+		if (oldTop->data == root->data)
+			isRoot = true;
+
+		Node* newTop = oldTop->left;
+		oldTop->left = newTop->right;
+		newTop->right = oldTop;
+
+		if (isRoot)
+			root = newTop;
+	}
+
+	Node* GetRoot() { return root; }
 };
 
 void TreeExample()
@@ -218,7 +322,13 @@ void TreeExample()
 	bst.insert(25);
 	bst.insert(8);
 	bst.insert(49);
+	bst.insert(17);
+	bst.insert(40);
+	bst.remove(7);
+	bst.remove(25);
 
+	bst.rightRotate(bst.GetRoot());
+	
 	bst.InOrder();
 
 	std::cout << "탐색 결과 :" << (bst.search(30) ? "찾음" : "못찾음") << std::endl;
